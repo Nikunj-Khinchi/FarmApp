@@ -85,7 +85,7 @@ app.post('/login', async (req, res) => {
   
   
 mongoose
-  .connect('mongodb+srv://nikunj:nikunjkhinchi@cluster0.mqeedx1.mongodb.net/Farmproject')
+  .connect('')
   .then(() => { 
     app.listen(PORT, () => {
       console.log(`Server listening at ${PORT} and database connected successfully`);
